@@ -1,0 +1,48 @@
+Introductory Notes
+
+- Three types: supervised, unsupervised, reinforcement
+- ML grew out of AI
+- Useful for making sense of structured and unstructured data
+
+I. Supervised Learning
+
+- Seeks to learn a mdoel from labeled training data to make predictions about unseen or future data.
+
+- Can be discrete (classification) OR continuous (regression)
+
+    A. Classification: 
+        Goal is to predict categorical class labels of new instances based on past observations. 
+
+        Example: email spam detection is a binary classification task - the algorithm learns rules to distinguish b/w two classes: spam and not spam. 
+
+        You can have nonbinary (multi-class) classification tasks - handwriteen character recognition is an example. 
+
+    B. Regression: 
+       We have a predictor and a response variable, and we try to find the relationship between the two. 
+
+II. Reinforcement Learning
+
+    Develop an agent that improves performances based on interactions with environemnt. 
+
+III. Unsupervised Learning
+
+    We don't know the right answer (data is of an unknown structure)
+
+    A. Clustering:
+        Create clusters without knowing group memberships (like an unsupervised classification) 
+
+    B. Dimensionality reduction for data compression
+        Used for feature preproccessing to improve predictive performance of algos and compress data 
+        Also used for visualization of data 
+
+NOTATION
+
+- Samples are rows and features are columns - Iris is a 150x4 matrix 
+
+SYSTEMS
+
+Preprecessing -> Learning -> Evaluation -> Prediction
+
+
+
+    
